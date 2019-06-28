@@ -130,6 +130,9 @@ a {
   border-color: #1DA1F2 !important;
 }
 
+.profile-stats-item-active .profile-stats-item-number{
+color: #0084b4;
+}
 .profile-stats-item-label {
   font-size: 12px;
   font-weight: bold;
@@ -138,7 +141,7 @@ a {
 .profile-stats-item-number {
   font-size: 18px;
   font-weight: bold;
-  color: #000;
+  color: #717171;
 }
 
 .profile-header {
@@ -164,6 +167,15 @@ a {
 
 .profile-website:hover {
   text-decoration: underline !important;
+}
+
+.heading{
+display: flex;
+flex-direction: row;
+color: #0084b4;
+}
+.heading h5{
+  margin-right: 20px;
 }
 
 .tweet-to-btn {
